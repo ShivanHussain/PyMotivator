@@ -1,0 +1,5 @@
+[build]
+  functions = "netlify/functions"
+
+[functions."send_quote"]
+  schedule = "0 9 * * *"
